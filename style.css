@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,700&family=Libre+Baskerville:wght@400;700&family=News+Cycle&family=Palanquin+Dark:wght@500&family=Roboto:wght@100&family=Secular+One&family=Tilt+Prism&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header img {
+  height: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #003249;
+}
+
+span {
+  font-size: 3rem;
+  font-family: "Tilt Prism", cursive;
+  color: #9ad1d4;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #9ad1d4;
+  font-weight: bold;
+}
+
+#hero div {
+  width: 500px;
+}
+
+#hero {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .container {
+  max-width: 1200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#hero img {
+  height: 300px;
+}
+#hero h3 {
+  text-align: justify;
+}
+#hero h1 {
+  font-size: 2rem;
+}
+#hero h1, #hero h3 {
+  color: #007ea7;
+}
+#hero button {
+  font-weight: bold;
+  padding: 20px;
+  border: 0;
+  color: #003249;
+  border-radius: 10px;
+  background-color: #80ced7;
+}
+
+.about {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#about {
+  background-color: #007ea7;
+  color: white;
+  padding: 1px;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#about .about-content {
+  display: flex;
+  justify-content: center;
+}
+
+#about .about-content img {
+  width: 400px;
+  margin-left: 40px;
+}
+
+#about .about-content div {
+  width: 800px;
+}/*# sourceMappingURL=style.css.map */
